@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi Spooling Printer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Simulasi Spooling Printer</h1>
+    <div class="container">
+        <div class="controls">
+            <button id="addBtn">Tambah Dokumen</button>
+            <button id="startBtn">Mulai</button>
+            <button id="pauseBtn">Jeda</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+
+        <div class="status" id="printerStatus">Status Printer: 🟢 Idle</div>
+
+        <div class="queue" id="queueList"></div>
+
+        <h3>Log Aktivitas:</h3>
+        <div class="log" id="logBox"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
